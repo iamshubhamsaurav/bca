@@ -21,7 +21,7 @@ int main() {
     printf("\nAverage: %f", average);
 
     //  Giving the grades
-    if (average > 80) {
+    if (average > 90) {
         printf("\nA+");
     } else {
         printf("\nB");
