@@ -13,10 +13,9 @@ int main() {
         if (num % i == 0){
             printf("\nNot a Prime number: %d \n", num);
             return 0;
-        } else {
-            printf("\nPrime number: %d \n", num);
-            return 0;
         }
     }
+    printf("\nPrime number: %d \n", num);
+
     return 0;
 }
