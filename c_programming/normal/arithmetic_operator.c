@@ -10,7 +10,7 @@
 int main()
 {
     int num1, num2, add, sub, mul, div, rem;
-    printf("Enter Two Numbers: %d %d", num1, num2);
+    printf("Enter Two Numbers: ");
     scanf("%d %d", &num1, &num2);
 
     add = num1 + num2;
